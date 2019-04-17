@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <title>ProCalc</title>
+  </head>
+
+  <body style="min-width: 576px;">
+    <div class="container-fluid">
+      <div class="row"> 
+        <!-- ne zaboravi stavit kad je large   
+         justify-content-center-->
+          <div class="col-sm-6 offset-sm-3 bg-light mt-3 " style="height: 600px;"  id= "calculator">
+            <div class="container py-5"> 
+              <div class="container " style= "height: 50%">
+                  
+                      <input type="text" readonly="readonly" class= "bg-success" id="sumad" style="text-align: right; border: none; width: 100%; ">
+                      
+                      <input type="text" readonly="readonly" class= "bg-success" id= "answer" style="text-align: right; border: none; width: 100%;">
+                  
+              </div>    
+            </div>
+              <div class="col h-75">
+                <div class="row" style="height: 20%">
+                    <button class="col m-1 btn btn-dark" onclick="clearScreen()"><h5 class="display-4">C</h5></button>
+                    <button class="col m-1 btn btn-dark"onclick="insertNum('/')"><h5 class="display-4">/</h5></button>
+                    <button class="col m-1 btn btn-dark" onclick="insertNum('*')"><h5 class="display-4">x</h5></button>
+                    <button class="col m-1 btn btn-dark" onclick="back()"><h5 class="display-4">⌫</h5></button>
+
+                </div>
+                <div class="row"style="height: 20%">
+                    <button class="col m-1 btn btn-secondary" onclick="insertNum('7')"><h5 class="display-4">7</h5></button>
+                    <button class="col m-1 btn btn-secondary"onclick="insertNum('8')"><h5 class="display-4">8</h5></button>
+                    <button class="col m-1 btn btn-secondary" onclick="insertNum('9')"><h5 class="display-4">9</h5></button>
+                    <button class="col m-1 btn btn-dark" onclick="insertNum('-')"><h5 class="display-4">-</h5></button>
+
+                </div>
+                
+                <div class="row"style="height: 20%">
+                    <button class="col m-1 btn btn-secondary"onclick="insertNum(4)"><h5 class="display-4">4</h5></button>
+                    <button class="col m-1 btn btn-secondary"onclick="insertNum(5)"><h5 class="display-4">5</h5></button>
+                    <button class="col m-1 btn btn-secondary"onclick="insertNum(6)"><h5 class="display-4">6</h5></button>
+                    <button class="col m-1 btn btn-dark" onclick="insertNum('+')"><h5 class="display-4">+</h5></button>
+
+                </div>
+                
+                <div class="row "style="height: 40%">
+
+                  <div class="col">
+                    <div class="row h-50">
+                        <button class="col m-1 btn btn-secondary" onclick="insertNum(1)"><h5 class="display-4">1</h5></button>
+                        <button class="col m-1 btn btn-secondary"onclick="insertNum(2)"><h5 class="display-4">2</h5></button>
+                        <button class="col m-1 btn btn-secondary"onclick="insertNum(3)"><h5 class="display-4">3</h5></button>
+                    </div>
+                    <div class="row h-50 ">
+                        <button class="col-8 btn border-2 btn-secondary border-secondary" onclick="insertNum(0)"style="border-width:4px"><h5 class="display-4">0</h5></button>
+                        <button class="col m-1 btn btn-secondary"onclick="insertNum('.')"><h5 class="display-4">.</h5></button>
+                    </div>
+                    </div>
+                  <button class="col-3 border-2  btn btn-danger" style="border-width:4px"onclick="getRes()"><h5 class="display-4">=</h5></button>
+                  
+
+              </div>
+              </div>
+              
+          </div>
+
+      </div>
+      
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/calc.js"></script>
+
+
+
+    </body>
+</html>

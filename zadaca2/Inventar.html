@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Nikola Prološčić">
+<meta name="description" content="Inventura mathosa.">
+<meta name="keywords" content="inventura, prostorije, mathos, Administracija, 
+Inventar, Zaposlenici, Predavaonice">
+<!--  <link rel="icon" href="img/icon.png" type="image/png" sizes="16x16">-->
+<link rel="stylesheet" href="css/style.css" >
+
+<title>inventura_mathos</title>
+</head>
+<body>
+        <nav id="strana" >
+                
+                <h3 id="h3tittle"> Inventura</h3> 
+                <div id= "traka">
+                                <!-- sad je sve u fileMenuJS-->              
+                </div>
+
+                <br>
+                 <br>
+                <br> <br>
+               <br>
+        </nav>
+        <nav id="Predavaonice">
+                <h2>2016.godina</h2>
+
+                <div id= "order"> Poredaj po imenu ^</div>
+                <div class="lista3">
+                </div>
+
+                </nav>
+    
+        <main>
+                
+                <div id="boxodgumba"><button id="gumb">Spremi</button></div>
+                <h1>Predavaonica 3</h1>
+                
+                <table id= mojaTabla>
+                        <tr>
+                                <th id= "stupac">    
+                                        <dl>
+                                                <dt id="sitnaSlova">Datum inventure:</dt>
+                                                <dd id= "datumi">02.03.2016. 11:13</dd>
+                                                
+                                                <dd id= "datumi">02.03.2016. 11:13</dd>
+                                        </dl>
+                                </th>
+                               <th id= "stupac">    
+                                                <dl>
+                                                        <dt id="sitnaSlova">Pregledao</dt>
+                                                        <dd id= "datumi">Neil Armstrong</dd>
+                                                        <dd id= "datumi">Buzz Aldrin</dd>
+                                                </dl>
+                                </th>
+                               <th id= "stupac">    
+                                                <dl>
+                                                        <dt id="sitnaSlova">Broj potvrda</dt>
+                                                        <dd id= "datumi">2</dd>
+                                                        <dd id= "datumi">3</dd>
+                                                </dl>
+                                 </th>
+                                
+                        </tr>
+                        <tr id="linijaIznad">
+                                        <th id= "stupac">    
+                                                <dl>
+                                                        <dt id="sitnaSlova">Zadnja Promjena:</dt>
+                                                        <dd id= "datumi">02.03.2016. 11:13</dd>
+                                                        
+                                                </dl>
+                                        </th>
+                                       <th id= "stupac">    
+                                                        <dl>
+                                                                <dt id="sitnaSlova">Promjenio</dt>
+                                                                <dd id= "datumi">Pete Conrad</dd>
+                                                        </dl>
+                                        </th>
+                                       <th id= "stupac">    
+                                                        <dl>
+                                                                <dt id="sitnaSlova">Broj promjena</dt>
+                                                                <dd id= "datumi">2</dd>
+                                                        </dl>
+                                         </th>
+                                        
+                        </tr>
+                </table>
+                <table id="donjaTabla">
+                        <tr>
+                                <th id="donji">Naziv:</th>
+                             <th id="kratko">Očekivano</th>
+                             <th id="kratko">Stanje</th>
+                             <th id="kratko">uredi</th>
+                             <th>Potvrdi:</th>
+                        </tr>
+                        
+                        <tr>
+                                        <th id="donji">Stolica</th>
+                                     <th id="kratko">45</th>
+                                     <th id="kratko">45</th>
+                                     <th id="kratko"><img src="https://image.flaticon.com/icons/png/512/97/97841.png" width="16"></th>
+                                     <th><form action="nista">
+                                             <input type="checkbox" checked >
+                                     </form></th>
+                        </tr>
+                        
+                        <tr>
+                                        <th id="donji">Školska ploča </th> 
+                                     <th id="kratko">1</th>
+                                     <th id="kratko">1</th>
+                                     <th id="kratko"><img src="https://image.flaticon.com/icons/png/512/97/97841.png" width="16"></th>
+                                     <th><form action="nista">
+                                             <input type="checkbox" checked >
+                                     </form></th>
+                        </tr>
+                        
+                        <tr>
+                                        <th id="donji">Stol sa kredom</th> 
+                                        <th id="kratko">1</th>
+                                        <th id="kratko">1</th>
+                                        <th id="kratko"><img src="https://image.flaticon.com/icons/png/512/97/97841.png" width="16"></th>
+                                        <th><form action="nista">
+                                                <input type="checkbox" >
+                                        </form></th>
+                        </tr>
+                        
+                        <tr>
+                                        <th id="donji">Projektor</th> 
+                                        <th id="kratko">1</th>
+                                        <th id="kratko">1</th>
+                                        <th id="kratko"><img src="https://image.flaticon.com/icons/png/512/97/97841.png" width="16"></th>
+                                        <th><form action="nista">
+                                                <input type="checkbox">
+                                        </form></th>
+                        </tr>
+                        
+                        <tr>
+                                        <th id="donji">Grb</th> 
+                                                <th id="kratko">1</th>
+                                                <th id="kratko">1</th>
+                                                <th id="kratko"><img src="https://image.flaticon.com/icons/png/512/97/97841.png" width="16"></th>
+                                     
+                                        <th><form action="nista">
+                                                <input type="checkbox"  >
+                                        </form></th>
+                        </tr>
+                </table>
+                       
+        </main>
+        
+        <script src="js/fillMenu.js"></script>
+        
+        <script src= "js/fillRooms.js"></script> 
+       
+        <script src = "js/domPaths.js"></script>
+</body>

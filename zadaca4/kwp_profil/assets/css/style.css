@@ -1,0 +1,19 @@
+body {
+    height: 100%;
+    margin: 0;
+    background: gray;
+
+}
+#insert
+{
+    display: none;
+}
+
+#insertprofil
+{
+    display: none;
+}
+#all{
+    background: white;
+    height: 100%;
+}

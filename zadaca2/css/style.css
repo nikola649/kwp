@@ -1,0 +1,253 @@
+   /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+ h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding: 0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    font-size:100%;
+    line-height: 2;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+*{
+    font-family:Helvetica;
+  }
+
+nav{
+    position: fixed;
+    padding:10pt;
+    
+    width: 200px;
+    height: 100%;
+    color: rgb(191,194,198);
+    background: rgb(51,59,70);
+}
+#traka{
+width: 180px;
+line-height: 4;
+}
+main{
+    position: fixed;
+    margin: 25px 0 0 450px;
+        
+}
+
+a:link
+ {color: rgb(191,194,198)}
+ a:visited 
+{
+    color: rgb(191,194,198);
+}
+#Predavaonice{
+    width: 200px;
+    float: left;
+    height: 100%;
+    margin: 0 0 0 200px;
+    background: rgb(68,124,172);
+}
+#boxodgumba{
+    float:right;
+}
+#gumb{
+background-color: #f44336;
+color: white;
+border-radius: 6px;
+border: 2px solid red;
+width: 75px;
+height: 25px;
+font-weight: bold;
+}
+#order{
+     margin-top: 8pt;
+     padding-bottom: 5pt;
+    color:  rgb(114,174,200);
+    border-top: solid rgb(58,114,165);
+    text-align: right;
+}
+tr{
+    border-bottom: solid rgb(229,229,229);
+    border-bottom-width: 1pt;
+}
+#sitnaSlova{
+    color: rgb(235,228,223);
+    border-top: none;
+    padding: 5pt 0;
+    font-weight: bold;
+    font-size: x-small;
+        }
+#stupac{
+    padding-left: 25pt;
+    width: 300px;
+}
+
+#datumi{
+    color:rgb(102,102,102);
+}
+#mojaTabla{
+    text-align: left;
+    background: rgb(242,242,242);
+    border-bottom: solid rgb(229,229,229);
+    border-top: solid rgb(229,229,229);
+    border-bottom-width: 1pt;
+    border-top-width: 1pt;
+}
+#donjaTabla{
+    color: rgb(201,200,195);
+    margin-top: 50px;
+    text-align: left;
+    font-weight: 100;
+    line-height: 4;
+}
+
+#donji{
+    padding-left: 25pt;
+    width: 250px;
+}
+
+#kratko{
+    
+    padding-left: 25pt;
+    width: 150px;
+}
+#linijaIznad
+{border-top: solid rgb(229,229,229);
+ border-top-width: 1pt;   
+
+    ;
+}
+
+a:hover {
+    color:  rgb(191,194,198);
+    background: rgb(68,78,92);
+}
+h3{color: rgb(191,194,198);
+border-bottom:solid white;
+border-bottom-width: 1pt; 
+line-height: 3;
+
+
+}
+h2{color: rgb(250,255,255);}
+h1{color: rgb(102,102,102);
+    font-weight: normal;
+}
+
+
+
+dl{
+    list-style-type: none;
+height: 100%;
+width: 120pt;
+}
+dt {
+        color: rgb(250,255,255);
+        border-top: solid rgb(58,114,165);
+        padding: 10px 0;
+        font-weight: bold;
+        }
+    dd {
+        font-size: small;
+        color:  rgb(114,174,200);
+        list-style-type: none;
+        margin: 0;
+        padding: 0 0 0.5em 0;
+        }
+    

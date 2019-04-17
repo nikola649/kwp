@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    
+    <title>Hello, world!</title>
+  </head>
+  <body onload="personal();">
+    <div id="all" class="container">
+      <div class="container d-flex justify-content-center">
+        
+          <img id= 'output' src="/assets/img/cover-image.jpg" alt="" style="position: relative;">
+          <input type='file' id= "insert" accept='image/*' onchange='openFile(event)'>
+          
+          <button class="fileuploader-btn" width="20px" height="20px"  style="margin-top:1%; position:absolute; margin-left:50%;"><img src="./assets/img/edit.png" alt="" ></button>
+
+          <img id= 'profilna' src="/assets/img/profile-image.jpg" alt="" style="margin-top:415px; position:absolute;" width="180x" height="180px">
+          <input type='file' id= "insertprofil" accept='image/*' onchange='openFileprofil(event)'>
+          
+          <button class="fileuploader-btn2" width="5px" height="5px"  style="margin-top:420px; position:absolute; margin-left:4%;"><img src="./assets/img/edit.png" alt="" ></button>
+ 
+        </div>
+          <div class=" container d-flex justify-content-center font-weight"  style="font-size: 25px; margin-top:120px;" id="korisnik"> bfdfd</div>
+          <div class=" container d-flex justify-content-center" id="email"></div>
+      
+
+          <form class="w-50" style="margin-left:25%">
+              <div class="form-group" style="margin-top: 50px;">
+                 <textarea class="form-control" id="countform" maxlength="500" rows="5" placeholder="Your message"  onkeyup="countChars('countform','displayto');"></textarea>
+                <span class="help-block" style="margin-left:65%" id="displayto">500 characters left</span>
+              </div>
+              <button id="unesi" type="button"  class="col-3 btn btn-success" onclick="unos('countform')">Submit</button>
+            </form>
+  
+      
+        
+    </div>
+    
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/js/myscript.js"></script>
+  
+  </body>
+</html>
